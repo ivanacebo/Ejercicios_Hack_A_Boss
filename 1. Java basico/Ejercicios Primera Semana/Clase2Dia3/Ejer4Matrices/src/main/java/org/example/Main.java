@@ -25,9 +25,9 @@ public class Main {
                     finReservas = true;
                     break;
                 case 1:
-                    System.out.println("Digame que fila quiere reservar");
+                    System.out.println("Digame que fila quiere reservar. Valor entre 0 y 4");
                     fila = scanner.nextInt();
-                    System.out.println("Digame que asiento quiere reservar");
+                    System.out.println("Digame que asiento quiere reservar. Valor entre 0 y 4");
                     asiento = scanner.nextInt();
 
                     if (asientos [fila] [asiento] == 0) {
