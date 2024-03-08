@@ -25,6 +25,10 @@ public class ControladoraPersistencia {
     public List<Plato> traerPlatos() {
         return platojpa.findPlatoEntities();
     }
+    
+    public List<Plato> buscarPlatoPrecio(double precio) {
+        return platojpa.findPlatoByPrecio(precio);
+    }
 
     public Plato traerPlato(int id) {
         return platojpa.findPlato(id);

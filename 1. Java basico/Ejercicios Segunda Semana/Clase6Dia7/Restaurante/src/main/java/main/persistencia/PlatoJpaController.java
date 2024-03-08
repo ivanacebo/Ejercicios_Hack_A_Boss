@@ -30,9 +30,20 @@ public class PlatoJpaController implements Serializable {
     public EntityManager getEntityManager() {
         return emf.createEntityManager();
     }
-    
+
     public PlatoJpaController() {
         emf = Persistence.createEntityManagerFactory("restaurantePU");
+    }
+
+    public List<Plato> findPlatoByPrecio(double precio) {
+        EntityManager em = getEntityManager();
+        try {
+            Query query = em.createQuery("SELECT p FROM Plato p WHERE p.precio = :precio");
+            query.setParameter("precio", precio);
+            return query.getResultList();
+        } finally {
+            em.close();
+        }
     }
 
     public void create(Plato plato) {
@@ -138,5 +149,5 @@ public class PlatoJpaController implements Serializable {
             em.close();
         }
     }
-    
+
 }

@@ -22,6 +22,10 @@ public class Controladora {
     public Plato traerPlato(int id) {
         return control.traerPlato(id);
     }
+    
+    public List<Plato> buscarPlatoPrecio(double precio) {
+        return control.buscarPlatoPrecio(precio);
+    }
 
     public void editarPlato(Plato plato) {
         control.editarPlato(plato);
