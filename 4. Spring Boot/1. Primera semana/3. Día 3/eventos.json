@@ -1,0 +1,43 @@
+{
+  "id": 1,
+  "titulo": "Conferencia sobre Inteligencia Artificial",
+  "descripción": "Una conferencia sobre el impacto de la inteligencia artificial en la sociedad moderna.",
+  "fecha": "2024-04-10",
+  "hora": "15:00",
+  "lugar": "Centro de Convenciones",
+  "ponente": "Dr. Juan Pérez",
+  "participantes": [
+    {
+      "id": 1,
+      "nombre": "María",
+      "apellido": "García"
+    },
+    {
+      "id": 2,
+      "nombre": "Pedro",
+      "apellido": "López"
+    }
+  ]
+},
+{
+  "id": 2,
+  "titulo": "Taller de Desarrollo Web",
+  "descripción": "Un taller práctico sobre las últimas tecnologías de desarrollo web.",
+  "fecha": "2024-04-15",
+  "hora": "10:00",
+  "lugar": "Universidad Nacional",
+  "ponente": "Ing. Ana Martínez",
+  "participantes": [
+    {
+      "id": 3,
+      "nombre": "Carlos",
+      "apellido": "Ruiz"
+    },
+    {
+      "id": 4,
+      "nombre": "Laura",
+      "apellido": "Díaz"
+    }
+  ]
+}
+

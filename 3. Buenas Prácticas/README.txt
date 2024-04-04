@@ -1,1 +1,1 @@
-Sin contenido aún
+No se sube contenido en la semana de buenas práctias. Esto es teoría.
