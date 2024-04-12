@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "67ac1610-c3da-4daf-bb1c-4a4928cdda62",
+		"name": "Restaurante",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26890592"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/restaurante/lista/ingredientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/restaurante/lista/ingredientes",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restaurante",
+						"lista",
+						"ingredientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/restaurante/lista/platos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/restaurante/lista/platos",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restaurante",
+						"lista",
+						"platos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/restaurante/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/restaurante/Spaghetti a la bolognesa",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restaurante",
+						"Spaghetti a la bolognesa"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

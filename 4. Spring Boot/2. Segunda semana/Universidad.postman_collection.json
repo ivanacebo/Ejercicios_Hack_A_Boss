@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "c44c582b-ba1d-4ce5-a781-79d03c90ce92",
+		"name": "Universidad",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26890592"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/estudiantes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calificaciones/estudiantes",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calificaciones",
+						"estudiantes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/estudiantes/001",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calificaciones/002",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calificaciones",
+						"002"
+					],
+					"query": [
+						{
+							"key": "matricula",
+							"value": "001",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/calificaciones",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 11,\r\n  \"calificacion1\": 8.0,\r\n  \"calificacion2\": 7.5,\r\n  \"calificacion3\": 8.2,\r\n  \"promedio\": 7.9,\r\n  \"estudiante\": {\r\n    \"numeroMatricula\": \"011\",\r\n    \"nombre\": \"Marcos\",\r\n    \"apellido\": \"Hernández\",\r\n    \"fechaNacimiento\": \"10/02/2002\"\r\n  }\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/calificaciones",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calificaciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/calificaciones/ordendesc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calificaciones/ordendesc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calificaciones",
+						"ordendesc"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
